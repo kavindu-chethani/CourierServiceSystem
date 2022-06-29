@@ -1,0 +1,316 @@
+
+.package{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: pop;
+}
+
+.package .main{
+    width: 100%;
+    padding-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    flex-direction: column;
+}
+
+.package_li:hover {
+    background-color: white;
+}
+
+
+.package p {
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.package h6 {
+    font-weight: bold;
+    font-size: 11px;
+}
+
+
+
+
+
+
+.package .head{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.package .head_1{
+    font-size: 30px;
+    font-weight: 600;
+    color: #333;
+}
+.package .head_1 span{
+    color: #F77F00;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+.package .head_2{
+    font-size: 16px;
+    font-weight: 600;
+    color: #555d50;
+    
+}
+
+
+.package ul{
+    display: flex;
+    
+}
+
+
+.package ul li{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.package ul li .icon{
+    font-size: 35px;
+    color: #F77F00;
+    margin: 0 60px;
+}
+.package ul li .text{
+    font-size: 14px;
+    font-weight: 600;
+    color: #F77F00;
+}
+
+
+
+
+
+
+
+
+
+/* Progress Div Css  */
+
+ul li .progress{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgba(68, 68, 68, 0.781);
+    margin: 14px 0;
+    display: grid;
+    place-items: center;
+    color: #fff;
+    position: relative;
+    cursor: pointer;
+}
+.progress.two::after{
+    content: " ";
+    position: absolute;
+    width: 125px;
+    height: 5px;
+    background-color: rgba(68, 68, 68, 0.781);
+    right: 30px;
+}
+ .one::after{
+    width: 0;
+    height: 0;
+}
+ ul li .progress .uil{
+    display: none;
+}
+ ul li .progress p{
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Active Css  */
+
+.package ul li .active{
+    background-color: #FDCB35;
+    display: grid;
+    place-items: center;
+}
+.package li .active::after{
+    background-color: #FDCB35;
+}
+.package ul li .active p{
+    display: none;
+}
+.package ul li .active .uil{
+    font-size: 20px;
+    display: flex;
+}
+
+.package .details-main{
+    font-family: 'Poppins', sans-serif;
+    padding-top: 25px;
+    padding-bottom: 100px;
+}
+
+.package th, td {
+    width: 450px;
+    height: 35px;
+    color: #555d50;
+}
+
+
+.package .cus-detailsPD {
+    border-radius: 25px;
+    border: 3px solid #FDCB35;
+    background: #fffacd;
+    padding: 30px;
+    margin-top: 25px;
+}
+
+.package .cus-detailsPD h6 {
+    color: #ff0000;
+}
+
+.package .button-35 {
+    background-color: var(--first-color);
+    border-radius: 3rem;
+    box-sizing: border-box;
+    color: #dc143c;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: lighter;
+    display: inline-block;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+  }
+
+
+.package .button-35:hover {
+    background-color: #ffbf00;
+    border: 1px solid crimson;
+    border-radius: 3rem;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: lighter;
+    display: inline-block;
+    opacity: 1;
+    outline: 1 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    
+  }
+
+
+  .package .button-57 {
+    background-color: var(--first-color);
+    margin-left: 89%;
+    margin-top: 10px;
+    border-radius: 3rem;
+    border: 2px solid blue;
+    box-sizing: border-box;
+    color: blue;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    display: inline-block;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+  }
+
+  .package .button-57:hover {
+    background-color: #ffe135;
+    border: 2px solid #1e90ff;
+    color: blue;
+  }
+
+  .package .pack-details {
+    border-radius: 25px;
+    border: 3px solid #FDCB35;
+    background: #fffacd;
+    padding: 20px;
+    margin-top: 25px;
+}
+
+.package .seller-details {
+    border-radius: 25px;
+    border: 3px solid #FDCB35;
+    background: #fffacd;
+    padding: 20px;
+    margin-top: 25px;
+}
+
+.package .delivery-details {
+    border-radius: 25px;
+    border: 3px solid #FDCB35;
+    background: #fffacd;
+    padding: 20px;
+    margin-top: 25px;
+}
+
+/* Responsive Css  */
+
+@media (max-width: 980px) {
+    .package ul{
+        flex-direction: column;
+    }
+    .package ul li{
+        flex-direction: row;
+    }
+    .package ul li .progress{
+        margin: 0 30px;
+    }
+    .package .progress::after{
+        width: 5px;
+        height: 55px;
+        bottom: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: -1;
+    }
+    .package .one::after{
+        height: 0;
+    }
+    .package ul li .icon{
+        margin: 15px 0;
+    }
+}
+
+@media (max-width:600px) {
+    .package .head .head_1{
+        font-size: 24px;
+    }
+    .package .head .head_2{
+        font-size: 16px;
+    }
+}

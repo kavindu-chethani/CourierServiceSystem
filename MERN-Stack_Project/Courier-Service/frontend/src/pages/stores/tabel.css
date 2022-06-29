@@ -1,0 +1,15 @@
+
+
+.card-body{
+    background: #ecf0f3;
+    padding: 40px;
+    
+   
+}
+
+.button{
+    display: inline-block;
+}
+.button.left{
+    align-items: left;
+}

@@ -1,0 +1,24 @@
+.content {
+        max-width: 500px;
+        margin: auto;
+        border-radius: 20px;
+        box-sizing: border-box;
+        background: #ecf0f3;
+        border-radius: 20px;
+        padding: 40px;
+        position: relative;
+        margin-top: 3%;
+  
+}
+.ui button blue{
+
+    background-color: yellow;
+    position: center;
+}
+.ui main{
+    background-color: grey;
+}
+.img{
+    text-align: center;
+
+}

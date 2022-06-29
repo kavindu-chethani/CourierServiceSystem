@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 300;
+    width:100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2, h4,p{
+    margin:0;
+}
+
+.page{
+    background: #fff;
+    display: block;
+    margin: 3rem auto 3rem auto;
+    position: relative;
+    box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+}
+
+.page[size ="A4"]{
+    width: 21cm;
+    height: 29.7cm;
+    overflow-x: hidden;
+}
+
+/* Top Section */
+.top-section{
+    color: #fff;
+    padding: 20px;
+    height: 115px;
+    background-color: #d1d0cb;
+}
+
+.top-section h2{
+    font-size: 35px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.top-section .contact,
+.top-section .address{
+    width: 50%;
+    height:100%;
+    float:left;
+}
+
+.top-section.address-content{
+    max-width: 275px;
+}
+.contact .contact-content{
+    max-width: 320px;
+    float: right;
+    margin-top: 32px;
+}
+
+.contact-content .email,
+.contact-content .number{
+    display: block;
+}
+
+.contact-content .email span{
+    margin-left:4px;
+}
+.contact-content .number span{
+   
+    margin-left:10px;
+}
+
+/*Package report*/
+
+.billing-invoice{
+    padding: 20px;
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+
+.billing-invoice .title{
+    font-weight: 600;
+    float: left;
+}
+
+.billing-invoice .des{
+    font-weight: 400;
+    float: right;
+}
+
+.billing-invoice .code{
+    font-weight: 600;
+    float: right;
+}
+
+.billing-invoice .issue{
+    text-align: right;
+    font-size: 15px;
+}
+
+/*Package details*/
+
+.table{
+    padding: 0 20px;
+}
+
+.table table{
+    width: 100%;
+}
+
+.table table,th,td{
+    padding: 5px;
+    border-collapse: collapse;
+}
+
+.table tr th{
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+
+.titleData{
+    color: rgb(0, 0, 0);
+    background-color: #d1d0cb;
+    text-align: center;
+}
+.fetchData{
+    text-align: left;
+    font-size:18px ;
+}

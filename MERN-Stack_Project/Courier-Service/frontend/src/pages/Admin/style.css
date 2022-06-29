@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+
+.sellerRqst{
+  display: flex;
+  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sellerList{
+  display: flex;
+  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.packageList{
+  display: flex;
+  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.income{
+  display: flex;
+  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.wmlist{
+  display: flex;
+  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.addWM{
+  display: flex;
+}
+
+.adminContainer{  
+    text-align: left; 
+    /* border: 7px solid red; */
+    width: 1200px;
+    height: 150px;
+    padding-top: 58px; 
+    padding-left: 8px;
+    flex: 7;
+} 
+
+.btn {
+  
+    border: none;
+    color: white;
+    padding:5px 12px 5px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  .btn.btnA{
+     background-color :#ecc421;
+  }
+  .btn.btnI{
+     background-color :gray;
+  }
+  
+  .btn.btnA:hover{
+       background-color :#e4af00;
+  }
+  .btn.btnI:hover{
+       background-color :#606366;
+  }
+  .btn:active {
+   
+    transform: translateY(4px);
+  } 
+  .center{
+    text-align:center ;
+  }
+ 
+   .viewbtn{
+     padding : 10px 30px 10px 30px;
+     font-size: 14px;
+     border-radius: 4px;
+     
+  }
+
+   .sRprtbtn{
+    padding : 10px 30px 10px 30px;
+    font-size: 14px;
+    border-radius: 4px;
+    
+  }
+
+  
+  .searchBox{
+      width: 300px;
+      padding: 8px;
+      margin-left: 4px;
+      margin-right: 10px;
+      border-radius: 30px;
+  }
+  .btnSearch{
+      border-radius: 30px;
+      padding : 10px 20px 10px 20px;
+
+  }
+
+  .displayIncome{
+    width: 50px;
+  }
+  .form-grouprow{
+    margin: 30px;
+    font-size: larger;
+  }
+
+  .addWMbtn{
+    padding : 10px 20px 10px 20px;
+     font-size: 14px;
+     border-radius: 4px;
+     margin-bottom: 20px;
+  }
+
+
+  /*style 2*/
+
+
+
+
+  body{
+    /*background: #fec107;*/
+    padding: 0 10px;
+  }
+
+
+  .adminWrapper{
+    max-width: 500px;
+    width: 100%;
+    background: #fff;
+    margin: 20px auto;
+    box-shadow: 4px 4px 16px 4px rgb(0 0 0 / 13%);
+    padding: 30px;
+  }
+
+  .adminWrapper .title{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #361212;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .adminWrapper .form{
+    width: 100%;
+  }
+
+  
+.adminWrapper .form .inputfield{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .adminWrapper .form .inputfield label{
+     width: 200px;
+     color: #757575;
+     margin-right: 10px;
+    font-size: 14px;
+  }
+
+  .adminWrapper .form .inputfield .input,
+.adminWrapper .form .inputfield .textarea{
+  width: 100%;
+  outline: none;
+  border: 1px solid #d5dbd9;
+  font-size: 15px;
+  padding: 8px 10px;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+
+.adminWrapper .form .inputfield .textarea{
+    width: 100%;
+    height: 125px;
+    resize: none;
+  }
+
+  .adminWrapper .form .inputfield .custom_select{
+    position: relative;
+    width: 100%;
+    height: 37px;
+  }
+
+  .adminWrapper.form .inputfield .custom_select:before{
+    content: "";
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    border: 8px solid;
+    border-color: #d5dbd9 transparent transparent transparent;
+    pointer-events: none;
+  }
+
+  .adminWrapper .form .inputfield .custom_select select{
+    -webkit-appearance: none;
+    -moz-appearance:   none;
+    appearance:        none;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    border: 0px;
+    padding: 8px 10px;
+    font-size: 15px;
+    border: 1px solid #d5dbd9;
+    border-radius: 3px;
+  }
+
+  
+.adminWrapper .form .inputfield .input:focus,
+.adminWrapper.form .inputfield .textarea:focus,
+
+.adminWrapper.form .inputfield .custom_select select:focus{
+  border: 1px solid #000000;
+}
+
+.adminWrapper .form .inputfield p{
+    font-size: 14px;
+    color: #757575;
+ }
+ 
+ .btn.btnSbmt{
+  background-color :#ecc421;
+ }
+
+ .btnSbmt:hover{
+  background-color :#e4af00;
+ }
+
+ .btn.btnU{
+  background-color :#ecc421;
+  
+}
+.btnU:hover{
+  background-color :#e4af00;
+}
+.btn.btnC{
+  background-color :gray;
+  margin-right: 8px;
+  
+}
+.btnC:hover{
+  background-color :#606366;
+}
+
+.btn:active {
+  transform: translateY(4px);
+} 
+
+
+ @media (max-width:420px) {
+    .adminWrapper .form .inputfield{
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .adminWrapper .form .inputfield label{
+      margin-bottom: 5px;
+    }
+    .adminWrapper .form .inputfield.terms{
+      flex-direction: row;
+    }
+  }
+
+  .pdfBtn{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.btnbtnAbtnE{
+    border: none;
+    color: white;
+    padding:10px 50px 10px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color :#ecc421;
+  
+}
+.btnbtnAbtnE:active {
+   
+  transform: translateY(4px);
+}
+
+.btnbtnAbtnE:hover{
+  background-color :#e4af00;
+}
+
+
+
+
+/* Top Section */
+.top-section{
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  height: 115px;
+  background-color: #d1d0cb;
+}
+
+.top-section h2{
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: 600;
+
+}
+
+.top-section .contact,
+.top-section .address{
+  width: 50%;
+  height:100%;
+  float:left;
+  font-size: 10px;
+}
+
+.top-section.address-content{
+  max-width: 275px;
+}
+.contact .contact-content{
+  max-width: 370px;
+  float: right;
+  margin-top: 3px;
+}
+
+.contact-content .email,
+.contact-content .number{
+  display: block;
+}
+
+.contact-content .email span{
+  margin-left:5px;
+}
+.contact-content .number span{
+ 
+  margin-left:8px;
+}
+
+/*Package report*/
+
+.billing-invoice{
+  padding: 12px;
+  font-size: 15px;
+  margin-bottom: 60px;
+}
+
+.billing-invoice .title{
+  font-weight: 600;
+  float: left;
+  font-size: 20px;
+  
+}
+
+.billing-invoice .des{
+  font-weight: 400;
+  float: right;
+  padding-top: 5px;
+}
+
+.billing-invoice .code{
+  font-weight: 600;
+  float: right;
+}
+
+.billing-invoice .issue{
+  text-align: right;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+/*Package details*/
+
+.table{
+  padding: 0 ;
+  
+}
+
+.table table{
+  width: 100%;
+}
+
+.titleData{
+  color: rgb(0, 0, 0);
+  
+}
+.fetchData{
+  text-align: left;
+  font-size:12px ;
+}
+
