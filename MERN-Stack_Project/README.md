@@ -1,4 +1,4 @@
-Please go under edit and edit this file as needed for your project
+
 
 # Project Name - **By the Minute Courier Service**
 # Batch - 3.2
@@ -14,5 +14,5 @@ Please go under edit and edit this file as needed for your project
 #### Brief Description of Project - Courier Service System 
 #### Technologies used - MERN Stack
 
-Note - The student's github account should be given in brackets e.g. (asiriRepos), this ideally should be your student id 
+
 
